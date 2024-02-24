@@ -1,6 +1,5 @@
 <template>
-	<div class="p-[5%]">
-		<Header />
+	<main class="py-10">
 		<h1 class="mb-8 text-3xl font-bold">About</h1>
 		<p>
 			Ready to refresh your wardrobe and add fresh accents to your look?
@@ -18,5 +17,5 @@
 			Allow yourself to transform and discover new horizons of style with
 			our collection. Choose quality, choose style, choose us!
 		</p>
-	</div>
+	</main>
 </template>

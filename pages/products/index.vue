@@ -1,6 +1,5 @@
 <template>
-	<div class="p-[5%]">
-		<Header />
+	<main class="py-10">
 		<h1 class="mb-8 text-3xl font-bold">Products</h1>
-	</div>
+	</main>
 </template>

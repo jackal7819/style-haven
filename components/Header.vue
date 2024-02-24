@@ -1,8 +1,8 @@
 <template>
 	<header>
-		<nav>
-			<NuxtLink to="/">Style Haven</NuxtLink>
-			<ul>
+		<nav class="flex items-end justify-between pb-2 border-b border-slate-400">
+			<h1 class="text-3xl font-bold">Style Haven</h1>
+			<ul class="flex justify-between gap-10 text-xl">
 				<li>
 					<NuxtLink to="/">Home</NuxtLink>
 				</li>
@@ -16,3 +16,10 @@
 		</nav>
 	</header>
 </template>
+
+<style scoped>
+	.router-link-exact-active {
+		color: #0ea5e9;
+		transition: all 0.3s ease-in-out;
+	}
+</style>

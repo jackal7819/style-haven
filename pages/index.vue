@@ -1,7 +1,6 @@
 <template>
-	<div class="p-[5%]">
-		<Header />
-		<h1 class="mb-8 text-3xl font-bold">Home</h1>
+	<main class='py-10'>
+		<h1 class="mb-8 text-3xl font-bold">Clothing Lines</h1>
 		<p>
 			Let's dive into the world of fashion, where every detail matters,
 			and style is a way to express your uniqueness. Our clothing
@@ -20,5 +19,5 @@
 			level. Welcome to the world of stylish clothing, where everyone can
 			become a true style icon!
 		</p>
-	</div>
+	</main>
 </template>

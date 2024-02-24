@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 		link: [{ rel: 'icon', type: 'image/svg+xml', href: '/pinia.svg' }],
 	},
 	devtools: { enabled: true },
-	css: ['/main.css'],
+	css: ['~/assets/css/main.css'],
 	postcss: {
 		plugins: {
 			tailwindcss: {},
