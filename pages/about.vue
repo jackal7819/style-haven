@@ -1,5 +1,6 @@
 <template>
 	<div class="p-[5%]">
+		<Header />
 		<h1 class="mb-8 text-3xl font-bold">About</h1>
 		<p>
 			Ready to refresh your wardrobe and add fresh accents to your look?
