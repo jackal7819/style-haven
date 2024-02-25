@@ -1,8 +1,8 @@
 <template>
 	<header>
 		<nav class="flex items-end justify-between pb-2 border-b border-slate-400">
-			<h1 class="text-3xl font-bold">Style Haven</h1>
-			<ul class="flex justify-between gap-10 text-xl">
+			<h1 class="hidden text-3xl font-bold sm:block">Style Haven</h1>
+			<ul class="flex justify-between gap-10 mx-auto text-xl">
 				<li>
 					<NuxtLink to="/">Home</NuxtLink>
 				</li>
