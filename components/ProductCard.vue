@@ -16,7 +16,7 @@
 		</h1>
 		<NuxtLink
 			:to="`/products/${product.id}`"
-			class="w-full px-4 py-2 text-center duration-300 rounded bg-sky-500 text-slate-200 hover:bg-sky-600"
+			class="w-full px-4 py-2 text-center duration-300 rounded bg-sky-700 text-slate-200 active:bg-sky-500 hover:bg-sky-600"
 			>View Details</NuxtLink
 		>
 	</div>

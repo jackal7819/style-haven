@@ -4,6 +4,14 @@
 	const { data: product } = await useFetch(URL_PRODUCT, {
 		key: id,
 	});
+
+	if (!product.value) {
+		throw createError({
+			statusCode: 404,
+			statusMessage: 'Product Not Found',
+			fatal: true,
+		});
+	}
 </script>
 
 <template>
