@@ -7,25 +7,29 @@
 </script>
 
 <template>
-	<main class="flex flex-col justify-center gap-10 py-10 mx-auto md:flex-row">
-		<div class="max-w-sm mx-auto md:mx-0">
+	<main class="grid grid-cols-1 lg:gap-10 lg:grid-cols-2">
+		<div class="py-5 my-auto lg:p-10">
 			<img
 				:src="product.image"
 				alt="product image"
-				class="object-contain h-full rounded"
+				class="object-cover w-full max-w-md mx-auto rounded"
 			/>
 		</div>
-		<div
-			class="flex flex-col justify-center max-w-sm gap-10 p-5 mx-auto border rounded border-slate-400 md:mx-0"
-		>
-			<h1 class="text-xl font-bold">{{ product.title }}</h1>
-			<p class="flex justify-between gap-10">
-				Price: <span>$ {{ product.price }}</span>
+		<div class="flex flex-col gap-8 py-5 my-auto lg:p-10">
+			<h1 class="text-2xl font-bold lg:text-4xl">{{ product.title }}</h1>
+			<p class="flex flex-col gap-2 text-xl capitalize">
+				<span class="text-base font-bold">Price: </span>$
+				{{ product.price }}
 			</p>
-			<p class="flex justify-between gap-10 capitalize">
-				Category: <span>{{ product.category }}</span>
+			<p class="flex flex-col gap-2 text-xl capitalize">
+				<span class="text-base font-bold">Category: </span
+				>{{ product.category }}
 			</p>
-			<p>{{ product.description }}</p>
+			<p class="flex flex-col gap-2">
+				<span class="pb-2 font-bold border-b border-slate-400"
+					>Description: </span
+				>{{ product.description }}
+			</p>
 		</div>
 	</main>
 </template>
