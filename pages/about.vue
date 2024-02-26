@@ -1,3 +1,7 @@
+<script setup>
+	const { data } = await useFetch('/api/super');
+</script>
+
 <template>
 	<main class="py-10">
 		<h1 class="mb-8 text-3xl font-bold">About</h1>
@@ -14,8 +18,7 @@
 			and memorable.
 		</p>
 		<p>
-			Allow yourself to transform and discover new horizons of style with
-			our collection. Choose quality, choose style, choose us!
+			{{ data.message }}
 		</p>
 	</main>
 </template>
