@@ -38,6 +38,12 @@
 					>Description: </span
 				>{{ product.description }}
 			</p>
+			<button
+				class="flex items-center justify-center gap-5 py-2 duration-300 rounded w-52 bg-sky-700 text-slate-200 active:bg-sky-500 hover:bg-sky-600"
+			>
+				<i class="text-xl fa-solid fa-cart-plus"></i
+				><span>Add to Cart</span>
+			</button>
 		</div>
 	</main>
 </template>
